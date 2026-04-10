@@ -1,6 +1,12 @@
 # Bash-Deep-Dives
 
-**From Ubuntu Command Line**
+## **Open WSL Ubuntu Command Line**
+
+Click on Ubuntu Icon from the Start Menu.      
+
+![ubuntu.png](https://github.com/progressivepull/Bash-Deep-Dives/blob/main/resource/ubuntu.png)
+
+## **From Ubuntu Command Line**
 
 ``` bash
 
