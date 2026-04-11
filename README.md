@@ -8,7 +8,7 @@ Click on Ubuntu Icon from the Start Menu.
 
 ## **From Ubuntu Command Line**
 
-### Activate Virtual Enviroment
+### Activating your Python virtual environment
 **source ~/jupyterenv/bin/activate** activates a Python virtual environment located in your home 
 directory under jupyterenv. The command tells your shell to load the environment’s settings so 
 that Python, pip, and installed packages come from that environment instead of the system default.
@@ -18,7 +18,7 @@ that Python, pip, and installed packages come from that environment instead of t
 $ source ~/jupyterenv/bin/activate
 
 ```
-### Setting Root Directory
+### Moving into your Windows folder
 That command shows two things happening at once: you are inside your virtual environment **(jupyterenv)** 
 and you are changing directories into your Windows Documents folder as mounted inside WSL.
 
@@ -30,7 +30,7 @@ and you are changing directories into your Windows Documents folder as mounted i
 ``` bash
 (jupyterenv) $ cd /mnt/d/pinkt/Documents/GitHub-ProgressivePull/Bash-Deep-Dives
 ```
-### Starting Jupyter Notebook
+### Launching Jupyter Notebook
 
 To start Jupyter Notebook with the working directory set to ```C:/User/<Users>/Documents```, launch it 
 from a shell that is already in that folder. That ensures Jupyter uses that location as its file root.
@@ -39,7 +39,7 @@ from a shell that is already in that folder. That ensures Jupyter uses that loca
 $ jupyter notebook
 
 ```
-
+## Explaination
 Here’s what those three lines are doing — they’re basically the
 *perfect* workflow for running Jupyter Notebook from WSL while keeping
 your files on Windows.
@@ -51,7 +51,7 @@ You are:
 1.  **Activating your Python virtual environment** (so Jupyter + the
     Bash kernel are available)
 
-2.  **Moving into your Windows Documents folder** (so notebooks save
+2.  **Moving into your Windows folder** (so notebooks save
     where you want them)
 
 3.  **Launching Jupyter Notebook** (running inside WSL, opening in
