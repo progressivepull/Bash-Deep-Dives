@@ -8,13 +8,35 @@ Click on Ubuntu Icon from the Start Menu.
 
 ## **From Ubuntu Command Line**
 
+### Activate Virtual Enviroment
+**source ~/jupyterenv/bin/activate** activates a Python virtual environment located in your home 
+directory under jupyterenv. The command tells your shell to load the environment’s settings so 
+that Python, pip, and installed packages come from that environment instead of the system default.
+
 ``` bash
 
-pinkt@JOHN:~\$ source ~/jupyterenv/bin/activate
+$ source ~/jupyterenv/bin/activate
 
-(jupyterenv) pinkt@JOHN:~\$ cd /mnt/c/Users/pinkt/Documents (jupyterenv)
+```
+### Setting Root Directory
+That command shows two things happening at once: you are inside your virtual environment **(jupyterenv)** 
+and you are changing directories into your Windows Documents folder as mounted inside WSL.
 
-pinkt@JOHN:/mnt/c/Users/pinkt/Documents\$ jupyter notebook
+``` bash
+(jupyterenv) $ cd /mnt/c/Users/<USER_NAME>/Documents (jupyterenv)
+
+```
+**For Example:**      
+``` bash
+(jupyterenv) $ cd /mnt/d/pinkt/Documents/GitHub-ProgressivePull/Bash-Deep-Dives
+```
+### Starting Jupyter Notebook
+
+To start Jupyter Notebook with the working directory set to ```C:/User/<Users>/Documents```, launch it 
+from a shell that is already in that folder. That ensures Jupyter uses that location as its file root.
+
+``` bash
+$ jupyter notebook
 
 ```
 
