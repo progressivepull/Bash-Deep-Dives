@@ -2,7 +2,7 @@
 
 ## **Open WSL Ubuntu Command Line**
 
-Click on Ubuntu Icon from the Start Menu.      
+Click the Ubuntu icon in the Start Menu to launch your WSL Ubuntu terminal.     
 
 ![ubuntu.png](https://github.com/progressivepull/Bash-Deep-Dives/blob/main/resource/ubuntu.png)
 
