@@ -141,3 +141,127 @@ You’re doing exactly what WSL is designed for:
 
 This is the same setup used by data scientists who work across Windows +
 WSL.
+
+# **🧰 Core Bash Commands with Examples**
+
+- **cd** — change directory
+ 
+``` bash
+$ cd /mnt/c/Users/<USER>/Documents
+```
+
+- **ls** — list files 
+
+``` bash
+$ ls -lah
+```
+
+- **pwd** — show current directory 
+
+``` bash
+$ pwd
+```
+
+- **mkdir** — create a folder 
+
+``` bash
+$ mkdir project_folder
+```
+
+- **rm** — remove files or folders 
+
+``` bash
+$ rm file.txt 
+$ rm -r old_directory
+```
+
+- **cp** — copy files or folders 
+
+``` bash
+$ cp notes.txt backup_notes.txt
+$ cp -r src/ src_backup/
+``` 
+
+- **mv** — move or rename 
+
+``` bash
+$ mv oldname.txt newname.txt  
+$ mv file.txt /mnt/c/Users/<USER>/Documents
+```
+
+
+- **touch** — create an empty file 
+
+``` bash
+$ touch script.sh
+```
+
+- **cat** — print file contents 
+
+``` bash
+$ cat config.yaml
+```
+
+- **nano** — edit a file in terminal 
+
+``` bash
+$ nano script.sh
+```
+
+- **grep** — search text 
+
+``` bash
+$ grep "error" logfile.txt
+```
+
+- **find** — locate files 
+
+``` bash
+$ find . -name "\*.py"
+
+```
+
+- **chmod** — change permissions 
+
+``` bash
+$ chmod +x script.sh
+```
+
+- **echo** — print text or write to file 
+
+``` bash
+$ echo "Hello" > hello.txt
+
+```
+
+- **which** — show command location 
+
+``` bash
+$ which python
+```
+
+- **ps** — list running processes 
+
+
+``` bash
+$ ps aux
+```
+
+- **kill** — stop a process kill 1234
+
+``` bash
+$ kill 1234
+```
+
+- **history** — show previous commands 
+
+``` bash
+$ history \| grep cd
+```
+
+- **man** — open manual pages 
+
+``` bash
+$ man ls
+```
+
