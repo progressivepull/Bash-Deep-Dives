@@ -265,3 +265,27 @@ $ history \| grep cd
 $ man ls
 ```
 
+## 🧩 Useful combinations
+* List files sorted by size:
+
+``` bash
+$ ls -lhS
+```
+
+* Search inside all .log files:
+
+``` bash
+$ grep -R "timeout" *.log
+```
+
+* Copy everything except certain files:
+
+``` bash
+cp -r !(node_modules) backup/ (requires extglob)
+```
+
+* Run a script:
+
+``` bash
+./script.sh
+```
