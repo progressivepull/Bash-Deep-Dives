@@ -14,21 +14,20 @@ directory under jupyterenv. The command tells your shell to load the environment
 that Python, pip, and installed packages come from that environment instead of the system default.
 
 ``` bash
-
-$ source ~/jupyterenv/bin/activate
-
+source ~/jupyterenv/bin/activate
 ```
+
 ### Moving into your Windows folder
 That command shows two things happening at once: you are inside your virtual environment **(jupyterenv)** 
 and you are changing directories into your Windows Documents folder as mounted inside WSL.
 
 ``` bash
-(jupyterenv) $ cd /mnt/c/Users/<USER_NAME>/Documents (jupyterenv)
-
+cd /mnt/c/Users/<USER_NAME>/Documents
 ```
 **For Example:**      
+
 ``` bash
-(jupyterenv) $ cd /mnt/d/pinkt/Documents/GitHub-ProgressivePull/Bash-Deep-Dives
+cd /mnt/d/pinkt/Documents/GitHub-ProgressivePull/Bash-Deep-Dives
 ```
 ### Launching Jupyter Notebook
 
@@ -36,7 +35,7 @@ To start Jupyter Notebook with the working directory set to ```C:/User/<Users>/D
 from a shell that is already in that folder. That ensures Jupyter uses that location as its file root.
 
 ``` bash
-$ jupyter notebook
+jupyter notebook
 
 ```
 ## Explaination
