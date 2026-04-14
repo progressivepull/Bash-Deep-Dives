@@ -288,3 +288,7 @@ cp -r !(node_modules) backup/ (requires extglob)
 ``` bash
 ./script.sh
 ```
+
+# References
+* [w3schools](https://www.w3schools.com/bash/)
+* [The Complete Bash Scripting Course - Full Length Guide to learning the Bash Shell | You Suck at Programming | YouTube](https://www.youtube.com/watch?v=Sx9zG7wa4FA)
