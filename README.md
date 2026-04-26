@@ -1,5 +1,8 @@
 # Bash-Deep-Dives
 
+# Tutorial
+* [Bash Commands](./tutorials/bash_commands.md)
+
 ## **Open WSL Ubuntu Command Line**
 
 Click the Ubuntu icon in the Start Menu to launch your WSL Ubuntu terminal.     
